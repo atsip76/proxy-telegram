@@ -1,0 +1,11 @@
+---
+- hosts: all
+  become: yes
+  gather_facts: yes
+  remote_user: root
+  roles:
+    - common
+    - firewall
+    - telegram_proxy
+#    - robertdebock.squid
+#    - oefenweb.tinyproxy

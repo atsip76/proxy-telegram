@@ -1,0 +1,6 @@
+---
+# defaults file for squid
+
+squid_port: 3128
+
+squid_cache_dir: null /tmp

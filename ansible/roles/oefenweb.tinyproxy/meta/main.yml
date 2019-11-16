@@ -1,0 +1,23 @@
+# meta file for tinyproxy
+---
+galaxy_info:
+  role_name: tinyproxy
+  author: Mischa ter Smitten
+  company: Oefenweb.nl B.V.
+  description: Set up tinyproxy in Debian-like systems
+  license: MIT
+  min_ansible_version: 2.5.0.0
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+        - bionic
+    - name: Debian
+      versions:
+        - jessie
+        - stretch
+  galaxy_tags:
+    - system
+    - networking
+dependencies: []
